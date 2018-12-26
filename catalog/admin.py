@@ -1,3 +1,6 @@
+"""
+HOlad
+"""
 from django.contrib import admin
 
 # Register your models here.
@@ -70,4 +73,3 @@ class BookInstanceAdmin(admin.ModelAdmin):
         return obj.book.author
 
     get_author.short_description = 'Autor'
-
